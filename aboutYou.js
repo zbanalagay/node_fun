@@ -9,7 +9,7 @@ const questions = [
 let answers = [];
 let soreLoser = false;
 
-askQuestion = (question) => {
+var askQuestion = (question) => {
     process.stdout.write(` \n ${questions[question]} >`);
 }
 
