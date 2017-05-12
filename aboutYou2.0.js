@@ -10,8 +10,8 @@ const questions = [
     'What is your spirit animal?',
     'Why do you exist?'
 ];
-var answers = [
-];
+var answers = [];
+
 var soreLoser = false;
 rl.question('Are you ready to tell me about yourself? (y/n)', (answer) => {
     if (answer === 'y'){
